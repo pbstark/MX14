@@ -34,22 +34,18 @@ http://nbviewer.ipython.org/github/pbstark/MX14/tree/master/ to see a statically
 
 The chapters are:
 
-1. [Canonical examples of real-world problems we will consider](http://nbviewer.ipython.org/github/pbstark/MX14/tree/master/canonical.ipynb)
-1. [Why not use the normal approximation?](http://nbviewer.ipython.org/github/pbstark/MX14/tree/master/normApprox.ipynb)
-1. [The duality between confidence sets and hypothesis tests](http://nbviewer.ipython.org/github/pbstark/MX14/tree/master/duality.ipynb)
-1. [Confidence bounds for the mean of a bounded population: Binomial and Hypergeometric](http://nbviewer.ipython.org/github/pbstark/MX14/tree/master/binom.ipynb)
-1. [Confidence bounds from the Chebychev and Hoeffding Inequalities](http://nbviewer.ipython.org/github/pbstark/MX14/tree/master/hoeffding.ipynb)
-1. [Lower confidence bounds for the mean of a nonnegative population: Markov's Inequality & methods based on the empirical distribution](http://nbviewer.ipython.org/github/pbstark/MX14/tree/master/markov.ipynb)
-1. [Dollar-unit sampling and taint](http://nbviewer.ipython.org/github/pbstark/MX14/tree/master/dus.ipynb)
-1. [Penny sampling](http://nbviewer.ipython.org/github/pbstark/MX14/tree/master/pennySampling.ipynb)
-1. [Wald's Sequential Probability Ratio Test](http://nbviewer.ipython.org/github/pbstark/MX14/tree/master/sprt.ipynb)
-1. [The Kaplan-Wald Confidence Bound for a Nonnegative Mean](http://nbviewer.ipython.org/github/pbstark/MX14/tree/master/kaplanWald.ipynb)
-1. [Stratification and its discontents](http://nbviewer.ipython.org/github/pbstark/MX14/tree/master/stratify.ipynb)
-1. [Applications to auditing and litigation](http://nbviewer.ipython.org/github/pbstark/MX14/tree/master/applications.ipynb)
-1. [Bibliography](http://nbviewer.ipython.org/github/pbstark/MX14/tree/master/bib.ipynb)
-
-As of 30 September 2014, only the first five chapters are complete,
-but I hope to finish the rest within a few days.
+1. [Canonical examples of real-world problems we will consider](canonical.ipynb)
+1. [Why not use the normal approximation?](normApprox.ipynb)
+1. [The duality between confidence sets and hypothesis tests](duality.ipynb)
+1. [Confidence bounds for the mean of a bounded population: Binomial and Hypergeometric](binom.ipynb)
+1. [Confidence bounds from the Chebychev and Hoeffding Inequalities](hoeffding.ipynb)
+1. [Lower confidence bounds for the mean of a nonnegative population: Markov's Inequality & methods based on the empirical distribution](markov.ipynb)
+1. [Wald's Sequential Probability Ratio Test](sprt.ipynb)
+1. [The Kaplan-Wald Confidence Bound for a Nonnegative Mean](kaplanWald.ipynb)
+1. [Dollar-unit sampling and taint](dus.ipynb)
+1. [Penny sampling](pennySampling.ipynb)
+1. [Method shootout](shootout.ipynb)
+1. [Bibliography](bib.ipynb)
 
 If you discover errors or bugs, please let me know.
 
