@@ -43,7 +43,7 @@ The chapters are:
 1. [Wald's Sequential Probability Ratio Test](sprt.ipynb)
 1. [The Kaplan-Wald Confidence Bound for a Nonnegative Mean](kaplanWald.ipynb)
 1. [Dollar-unit sampling and taint](dus.ipynb)
-1. [Penny sampling](pennySampling.ipynb)
+1. [Penny Sampling and Continuous Penny Sampling](pennySampling.ipynb)
 1. [Method shootout](shootout.ipynb)
 1. [Bibliography](bib.ipynb)
 
