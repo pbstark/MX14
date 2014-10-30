@@ -6,22 +6,26 @@
 
 ### These materials are available at https://github.com/pbstark/MX14
 
-*Abstract:* Many problems that arise in financial and election auditing,
-civil litigation,
+*Abstract:* Many problems that arise in auditing, civil litigation,
 and causal inference can be reduced to statistical inferences about
 the mean of a nonnegative or bounded finite population.
-A variety of sampling plans can be combined with common probability
-inequalities to test hypotheses or make confidence intervals in these applications,
-in a fully nonparametric, conservative way.
-I will illustrate these methods with real and cartoon examples from election auditing,
-healthcare auditing, intellectual property litigation, wage and hour litigation,
-and online advertising.
+Examples include election auditing, financial auditing, tax auditing,
+healthcare auditing, intellectual property litigation, wage and hour
+litigation, and online advertising. A variety of sampling plans can be
+combined with common probability inequalities to test hypotheses or make
+confidence intervals in these applications, in a fully nonparametric,
+conservative way. We will derive a handful of such methods using tools
+such as binomial and hypergeometric tests, Markov's inequality,
+Chebychev's inequality, Hoeffding's inequality, and the DKW inequality.
 An especially useful class of methods can be derived from Wald's (1945)
-sequential probability ratio test (SPRT), which hinges on a generalization of the
-problem of _gambler's ruin_.
-Methods based on Wald's SPRT allow samples to be drawn incrementally and adaptively,
-often reducing the cost of financial and electoral audits, litigation discovery,
-and experiments without incurring any penalty from multiple testing.
+sequential probability ratio test (SPRT), which hinges on a generalization
+of the problem of gambler's ruin.
+Methods based on Wald's SPRT allow samples to be drawn incrementally and
+adaptively, often reducing the cost of financial and electoral audits,
+litigation discovery,
+and experiments, without incurring any penalty from multiple testing.
+We will compare the performance of these methods in simulations from
+"nonstandard" mixtures of distributions.
 
 ## Description of the materials
 
