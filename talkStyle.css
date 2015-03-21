@@ -1,6 +1,7 @@
+<link href='http://fonts.googleapis.com/css?family=Lora|Open+Sans' rel='stylesheet' type='text/css'>
 <style>
 
-font-family: Helvetica
+font-family: 'Lora', serif;
 
 .MathJax_Display {
   padding: 10px;
@@ -14,32 +15,48 @@ div.callout {
   border-width: 2px;
   padding: 10px 10px;
 }
+
 .rendered_html {
   color: #2C5494;
-  font-family: Helvetica;
+  font-family: 'Lora', serif;
   font-size: 140%;
   line-height: 1.1;
   margin: 0.5em 0;
 }
 
+div.cell {
+    width:900px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div.text_cell_render {
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
 .title {
-  color: #498AF3;
+  font-family: 'Open Sans', sans-serif;
+  color: #4773D1;
   font-size: 250%;
   font-weight:bold;
   line-height: 1.2;
-  margin: 10px 50px 10px;
+  margin: 0.5em 0;
 }
 
 .subtitle {
+  font-family: 'Open Sans', sans-serif;
   color: #386BBC;
   font-size: 180%;
   font-weight:bold;
   line-height: 1.2;
-  margin: 20px 50px 20px;
+  margin: 0.5em 0;
 }
 
 .slide-header, p.slide-header {
-  color: #498AF3;
+  color: #4773D1;
   font-size: 200%;
   font-weight:bold;
   margin: 0px 20px 10px;
@@ -52,16 +69,16 @@ div.callout {
 }
 
 .rendered_html h1 {
-  color: #498AF3;
+  color: #7898DD;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.2;
   margin: 0.15em 0em 0.5em;
   page-break-before: always;
-  text-align: center;
 }
 
 
 .rendered_html h2 {
-  color: #386BBC;
+  color: #4773D1;
   line-height: 1.2;
   margin: 1.1em 0em 0.5em;
 }
@@ -124,8 +141,20 @@ div.callout {
 }
 
 
-.rendered_html li {
-  line-height: 1.8;
+.rendered_html ol li {
+  padding-top: 20px;
+  padding-bottom: -20px;
+  line-height: 1.5;
+}
+
+.rendered_html ul li {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: 1.2;
+}
+
+li:first-of-type {
+  padding-top: -100px;
 }
 
 .input_prompt, .CodeMirror-lines, .output_area {
